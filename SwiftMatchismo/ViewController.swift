@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
                             
+    @IBOutlet var scoreLabel : UILabel
    
 
+    @IBAction func touchNewGameButton(sender : AnyObject) {
+        scoreLabel.text = "Touched!"
+    }
 
 }
 

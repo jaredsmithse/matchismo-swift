@@ -12,6 +12,7 @@
 		7F932C4D194399AE00DF81EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F932C4B194399AE00DF81EB /* Main.storyboard */; };
 		7F932C4F194399AE00DF81EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F932C4E194399AE00DF81EB /* Images.xcassets */; };
 		7F932C5B194399AF00DF81EB /* SwiftMatchismoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F932C5A194399AF00DF81EB /* SwiftMatchismoTests.swift */; };
+		7F932C6619439DE000DF81EB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F932C6519439DE000DF81EB /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		7F932C54194399AF00DF81EB /* SwiftMatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F932C59194399AF00DF81EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F932C5A194399AF00DF81EB /* SwiftMatchismoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMatchismoTests.swift; sourceTree = "<group>"; };
+		7F932C6519439DE000DF81EB /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		7F932C44194399AE00DF81EB /* SwiftMatchismo */ = {
 			isa = PBXGroup;
 			children = (
+				7F932C6419439DAC00DF81EB /* Models */,
 				7F932C47194399AE00DF81EB /* AppDelegate.swift */,
 				7F932C49194399AE00DF81EB /* ViewController.swift */,
 				7F932C4B194399AE00DF81EB /* Main.storyboard */,
@@ -107,6 +110,14 @@
 				7F932C59194399AF00DF81EB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F932C6419439DAC00DF81EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F932C6519439DE000DF81EB /* Card.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F932C4A194399AE00DF81EB /* ViewController.swift in Sources */,
+				7F932C6619439DE000DF81EB /* Card.swift in Sources */,
 				7F932C48194399AE00DF81EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +409,7 @@
 				7F932C60194399AF00DF81EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F932C61194399AF00DF81EB /* Build configuration list for PBXNativeTarget "SwiftMatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +418,7 @@
 				7F932C63194399AF00DF81EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
